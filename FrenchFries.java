@@ -9,7 +9,7 @@ package billgenerator;
  *
  * @author manish
  */
-public class FrenchFries extends Plan{
+public class FrenchFries extends Menu{
 
     @Override
     void getRate() {

@@ -55,7 +55,7 @@ public class GenerateBill {
                 break;
         }
         if (item != null) {
-            Plan p = planFactory.getPlan(item);
+            Menu p = planFactory.getPlan(item);
 
             System.out.println("Bill amount for " + item + " of " + quantity + " plates is:");
             p.getRate();

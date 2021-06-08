@@ -10,7 +10,7 @@ package billgenerator;
  * @author manish
  */
 public class GetMenuFactory {
-    public Plan getPlan(String planType){
+    public Menu getPlan(String planType){
         if(planType == null){
             return null;
         }

@@ -9,7 +9,7 @@ package billgenerator;
  *
  * @author manish
  */
-public class Chowmein extends Plan{
+public class Chowmein extends Menu{
 
     @Override
     void getRate() {

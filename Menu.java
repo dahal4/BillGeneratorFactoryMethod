@@ -9,7 +9,7 @@ package billgenerator;
  *
  * @author manish
  */
-public abstract class Plan {
+public abstract class Menu {
     protected double rate;
     abstract void getRate();
         

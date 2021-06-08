@@ -9,7 +9,7 @@ package billgenerator;
  *
  * @author manish
  */
-public class Momo extends Plan{
+public class Momo extends Menu{
 
     @Override
     void getRate() {
