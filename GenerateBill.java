@@ -19,7 +19,7 @@ public class GenerateBill {
         String momo = "Momo";
         String chowMein = "Chow Mein";
         String frenchFries = "French Fries";
-        GetMenuItem planFactory = new GetMenuItem();
+        GetMenuFactory planFactory = new GetMenuFactory();
         System.out.println("Select the menu items:");
         System.out.println("1.Momo");
         System.out.println("2.French Fries");
