@@ -16,10 +16,7 @@ import java.io.InputStreamReader;
 public class GenerateBill {
 
     public static void main(String[] args) throws IOException {
-        String momo = "Momo";
-        String chowMein = "Chow Mein";
-        String frenchFries = "French Fries";
-        GetMenuFactory planFactory = new GetMenuFactory();
+        GetMenuFactory itemFactory = new GetMenuFactory();
         System.out.println("Select the menu items:");
         System.out.println("1.Momo");
         System.out.println("2.French Fries");
@@ -55,7 +52,7 @@ public class GenerateBill {
                 break;
         }
         if (item != null) {
-            Menu p = planFactory.getPlan(item);
+            Menu p = itemFactory.getPlan(item);
 
             System.out.println("Bill amount for " + item + " of " + quantity + " plates is:");
             p.getRate();

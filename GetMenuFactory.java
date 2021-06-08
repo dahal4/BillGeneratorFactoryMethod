@@ -10,15 +10,15 @@ package billgenerator;
  * @author manish
  */
 public class GetMenuFactory {
-    public Menu getPlan(String planType){
-        if(planType == null){
+    public Menu getPlan(String itemType){
+        if(itemType == null){
             return null;
         }
-        if(planType.equalsIgnoreCase("momo")){
+        if(itemType.equalsIgnoreCase("momo")){
             return new Momo();
-        }else if(planType.equalsIgnoreCase("French Fries")){
+        }else if(itemType.equalsIgnoreCase("French Fries")){
             return new FrenchFries();
-        }else if (planType.equalsIgnoreCase("Chow mein")){
+        }else if (itemType.equalsIgnoreCase("Chow mein")){
             return new Chowmein();
         }
         return null;
