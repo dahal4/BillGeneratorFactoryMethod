@@ -52,11 +52,12 @@ public class GenerateBill {
                 break;
         }
         if (item != null) {
-            Menu p = itemFactory.getPlan(item);
+            Menu p = itemFactory.getItem(item);
 
             System.out.println("Bill amount for " + item + " of " + quantity + " plates is:");
             p.getRate();
             p.calculatebill(quantity);
+            
         }
 
     }
